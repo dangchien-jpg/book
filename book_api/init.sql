@@ -1,4 +1,4 @@
-CREATE DATABASE local_db;
+CREATE DATABASE IF NOT EXISTS local_db;
 USE local_db;
 CREATE TABLE books (
   id int(10) NOT NULL,
